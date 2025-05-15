@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import aiDocIntelligence from "../../Assets/Projects/aiDocIntelligence.png"; // Add the new image
 
 function Projects() {
   return (
@@ -21,9 +22,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* AI Document Intelligence */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify} // Update this with the appropriate image path if available
+              imgPath={aiDocIntelligence}
+              isBlog={false}
+              title="AI Document Intelligence"
+              description={
+                "Streamlit‑based system that ingests PDFs, extracts text via PyMuPDF, " +
+                "summarizes content with GPT‑4 (LangChain), classifies by category, " +
+                "analyzes sentiment, and provides an AI chatbot for Q&A. " +
+                "Integrates with Zapier webhooks and Salesforce tasks for end‑to‑end automation."
+              }
+              ghLink="https://github.com/akhilesh360/Automation"
+              demoLink="https://automation-ddwvwyexfe56f6s6bcowz5.streamlit.app/"
+            />
+          </Col>
+
+          {/* Existing Projects */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
               isBlog={false}
               title="Algeria Wild Fires Prediction"
               description="Developed a predictive model using Ridge regression to assess wildfire risks in Algeria with 98.4% accuracy based on environmental data like temperature, humidity, and wind speed. Deployed the application via Flask and AWS Elastic Beanstalk, enabling user input and predictions. Built a CI/CD pipeline from GitHub to AWS for seamless updates."
@@ -43,8 +62,6 @@ function Projects() {
             />
           </Col>
 
-        
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -52,7 +69,6 @@ function Projects() {
               title="Customer Review Sentiment Analysis"
               description="Developed a sentiment analysis model using Logistic Regression to assess customer sentiments in car rental reviews. The model predicted sentiments based on customer feedback, helping optimize car inventory. Deployed the solution using Dataiku for training, testing, and sentiment prediction. Applied text preprocessing techniques, including tokenization, stop word removal, and stemming using NLTK, to prepare the review data. Integrated sentiment prediction into the workflow, enabling real-time analysis of new customer reviews."
               ghLink="https://github.com/akhilesh360/Sentiment-Analysis-in-Dataiku-DSS/tree/main"
-              
             />
           </Col>
 
@@ -61,9 +77,8 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Customer Segmentation based on Spending"
-              description="Developed a customer segmentation model using KMeans Clustering to group customers based on spending behavior, annual income, and age. The dataset included 5 features. The model segmented customers into distinct clusters, ensuring quick and efficient analysis. Results were visualized through a 3D scatter plot, with clusters highlighted by color to clearly interpret patterns.  Clustering  These insights enable the company to target customers more effectively based on their age and spending behavior, driving the design of efficient marketing strategies and personalized campaigns."
+              description="Developed a customer segmentation model using KMeans Clustering to group customers based on spending behavior, annual income, and age. The dataset included 5 features. The model segmented customers into distinct clusters, ensuring quick and efficient analysis. Results were visualized through a 3D scatter plot, with clusters highlighted by color to clearly interpret patterns. These insights enable the company to target customers more effectively based on their age and spending behavior, driving the design of efficient marketing strategies and personalized campaigns."
               ghLink="https://github.com/akhilesh360/Customer_Segmentation"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
         </Row>
