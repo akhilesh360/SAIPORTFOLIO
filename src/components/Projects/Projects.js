@@ -9,7 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import aiDocIntelligence from "../../Assets/Projects/aiDocIntelligence.png";
-import dataLineage from "../../Assets/Projects/Data_lineage.png"; // Import the new project image
+import dataLineage from "../../Assets/Projects/PLTR.png"; // Updated image name
 
 function Projects() {
   return (
