@@ -8,7 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import aiDocIntelligence from "../../Assets/Projects/aiDocIntelligence.png"; 
+import aiDocIntelligence from "../../Assets/Projects/aiDocIntelligence.png";
+import dataLineage from "../../Assets/Projects/Data_lineage.png"; // Import the new project image
 
 function Projects() {
   return (
@@ -58,6 +59,17 @@ function Projects() {
               description="Developed AI Video Insight Assistant leveraging DeepSeek LLM to summarize YouTube transcripts and answer user queries. Utilized YouTube Transcript API for transcript extraction and concise summarization. Deployed via Streamlit and GitHub for seamless user access. Ensured secure API key management with environment variables and GitHub Secrets, enabling scalable, user-friendly interaction for video analysis and Q&A functionality."
               ghLink="https://github.com/akhilesh360/youtubevideoassistant"
               demoLink="https://saiyoutubeassistant.streamlit.app/"
+            />
+          </Col>
+
+          {/* LexFoundry */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dataLineage}
+              isBlog={false}
+              title="LexFoundry - Legal API Integration & Data Governance Framework"
+              description="Prototype simulating legal data ingestion, transformation, ontology modeling, and access control using Palantir Foundry. Demonstrates a modern, end-to-end legal data pipeline, integrating client, case, and document data from multiple sources (including REST APIs) into Foundry pipelines. Highlights best practices in data quality, automation, semantic modeling, and security on the Foundry platform."
+              ghLink="https://github.com/akhilesh360/LexFoundry"
             />
           </Col>
 
