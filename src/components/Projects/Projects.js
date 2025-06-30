@@ -67,7 +67,7 @@ function Projects() {
             <ProjectCard
               imgPath={dataLineage}
               isBlog={false}
-              title="LexFoundry - Legal API Integration & Data Governance Framework"
+              title="Palantir - LexFoundry, Legal API Integration & Data Governance Framework"
               description="“Lex” is Latin for “law,” and this project reflects a modern data engineering approach to managing complex legal data lifecycles with agility and governance. Prototype simulating legal data ingestion, transformation, ontology modeling, and access control using Palantir Foundry. Demonstrates a modern, end-to-end legal data pipeline, integrating client, case, and document data from multiple sources (including REST APIs) into Foundry pipelines. Highlights best practices in data quality, automation, semantic modeling, and security on the Foundry platform."
               ghLink="https://github.com/akhilesh360/LexFoundry"
             />
