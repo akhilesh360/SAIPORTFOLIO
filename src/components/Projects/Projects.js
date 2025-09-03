@@ -7,7 +7,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import aiDocIntelligence from "../../Assets/Projects/aiDocIntelligence.png";
-import dataLineage from "../../Assets/Projects/PLTR.png"; // Updated image name
+import dataLineage from "../../Assets/Projects/PLTR.png";
+import aiBrandTracker from "../../Assets/Projects/aiBrandTracker.png"; // Add new image
 
 function Projects() {
   return (
@@ -35,6 +36,18 @@ function Projects() {
               }
               ghLink="https://github.com/akhilesh360/Automation"
               demoLink="https://automation-ddwvwyexfe56f6s6bcowz5.streamlit.app/"
+            />
+          </Col>
+
+          {/* AI Brand Visibility Tracker */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aiBrandTracker}
+              isBlog={false}
+              title="AI Brand Visibility Tracker - Mental Health Analytics"
+              description="Comprehensive platform tracking mental health brand performance across AI platforms like ChatGPT and Claude. Features proprietary AI Visibility Score (AVS) algorithm, ML-powered question clustering with TF-IDF and K-Means, cross-platform analysis, and strategic content recommendations. Built with Python, Streamlit, and Scikit-learn for executive-level brand visibility insights."
+              ghLink="https://github.com/akhilesh360/ai-brand-visibility-tracker"
+              demoLink="https://ai-brand-visibility-tracker-28juw59dgwu24whpl6shr2.streamlit.app/"
             />
           </Col>
 
@@ -66,7 +79,7 @@ function Projects() {
               imgPath={dataLineage}
               isBlog={false}
               title="Palantir - LexFoundry, Legal API Integration & Data Governance Framework"
-              description="“Lex” is Latin for “law,” and this project reflects a modern data engineering approach to managing complex legal data lifecycles with agility and governance. Prototype simulating legal data ingestion, transformation, ontology modeling, and access control using Palantir Foundry. Demonstrates a modern, end-to-end legal data pipeline, integrating client, case, and document data from multiple sources (including REST APIs) into Foundry pipelines. Highlights best practices in data quality, automation, semantic modeling, and security on the Foundry platform."
+              description=""Lex" is Latin for "law," and this project reflects a modern data engineering approach to managing complex legal data lifecycles with agility and governance. Prototype simulating legal data ingestion, transformation, ontology modeling, and access control using Palantir Foundry. Demonstrates a modern, end-to-end legal data pipeline, integrating client, case, and document data from multiple sources (including REST APIs) into Foundry pipelines. Highlights best practices in data quality, automation, semantic modeling, and security on the Foundry platform."
               ghLink="https://github.com/akhilesh360/LexFoundry"
             />
           </Col>
