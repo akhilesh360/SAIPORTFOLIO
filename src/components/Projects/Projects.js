@@ -8,7 +8,8 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import aiDocIntelligence from "../../Assets/Projects/aiDocIntelligence.png";
 import dataLineage from "../../Assets/Projects/PLTR.png";
-import aiBrandTracker from "../../Assets/Projects/aiBrandTracker.png"; // Add new image
+import aiBrandTracker from "../../Assets/Projects/aiBrandTracker.png";
+import customerActivation from "../../Assets/Projects/customerActivation.png";
 
 function Projects() {
   return (
@@ -79,7 +80,7 @@ function Projects() {
               imgPath={dataLineage}
               isBlog={false}
               title="Palantir - LexFoundry, Legal API Integration & Data Governance Framework"
-              description=""Lex" is Latin for "law," and this project reflects a modern data engineering approach to managing complex legal data lifecycles with agility and governance. Prototype simulating legal data ingestion, transformation, ontology modeling, and access control using Palantir Foundry. Demonstrates a modern, end-to-end legal data pipeline, integrating client, case, and document data from multiple sources (including REST APIs) into Foundry pipelines. Highlights best practices in data quality, automation, semantic modeling, and security on the Foundry platform."
+              description="Lex is Latin for law, and this project reflects a modern data engineering approach to managing complex legal data lifecycles with agility and governance. Prototype simulating legal data ingestion, transformation, ontology modeling, and access control using Palantir Foundry. Demonstrates a modern, end-to-end legal data pipeline, integrating client, case, and document data from multiple sources (including REST APIs) into Foundry pipelines. Highlights best practices in data quality, automation, semantic modeling, and security on the Foundry platform."
               ghLink="https://github.com/akhilesh360/LexFoundry"
             />
           </Col>
@@ -101,6 +102,17 @@ function Projects() {
               title="Customer Segmentation based on Spending"
               description="Developed a customer segmentation model using KMeans Clustering to group customers based on spending behavior, annual income, and age. The dataset included 5 features. The model segmented customers into distinct clusters, ensuring quick and efficient analysis. Results were visualized through a 3D scatter plot, with clusters highlighted by color to clearly interpret patterns. These insights enable the company to target customers more effectively based on their age and spending behavior, driving the design of efficient marketing strategies and personalized campaigns."
               ghLink="https://github.com/akhilesh360/Customer_Segmentation"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customerActivation}
+              isBlog={false}
+              title="Customer Activation Analytics Platform"
+              description="Enterprise-grade platform combining AI-powered analytics, modern data stack, and live CRM workflows to activate and retain customers. Features GPT-4 risk scoring, real-time segmentation, automated Salesforce workflows, personalized messaging, and dbt data quality testing. Built with Python, DuckDB, Apache Airflow, and Streamlit for comprehensive customer lifecycle management and revenue recovery."
+              ghLink="https://github.com/akhilesh360/customer-activation-analytics"
+              demoLink="https://customer-activation-analytics-doswappppyzzduxxhwrd8gux.streamlit.app/"
             />
           </Col>
         </Row>
