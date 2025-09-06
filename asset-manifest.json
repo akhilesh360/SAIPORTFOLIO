@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/SAIPORTFOLIO/static/css/main.0c790c40.css",
-    "main.js": "/SAIPORTFOLIO/static/js/main.923eeb5f.js",
+    "main.js": "/SAIPORTFOLIO/static/js/main.f6dce3ce.js",
     "static/js/415.fc063c41.chunk.js": "/SAIPORTFOLIO/static/js/415.fc063c41.chunk.js",
     "static/js/787.f6e65957.chunk.js": "/SAIPORTFOLIO/static/js/787.f6e65957.chunk.js",
     "static/media/chatify.png": "/SAIPORTFOLIO/static/media/chatify.4d60d8ca0fa53c87a314.png",
     "static/media/about.png": "/SAIPORTFOLIO/static/media/about.84a3c78f4150af110e01.png",
     "static/media/blog.png": "/SAIPORTFOLIO/static/media/blog.60eec5a37f893bbe6215.png",
     "static/media/aiDocIntelligence.png": "/SAIPORTFOLIO/static/media/aiDocIntelligence.e04f83739b55487940b8.png",
+    "static/media/customerActivation.png": "/SAIPORTFOLIO/static/media/customerActivation.39e599ce571b6b5d12b4.png",
     "static/media/home-main.svg": "/SAIPORTFOLIO/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/aiBrandTracker.png": "/SAIPORTFOLIO/static/media/aiBrandTracker.8b305827586b98c050c9.png",
     "static/media/suicide.png": "/SAIPORTFOLIO/static/media/suicide.bda9c4346b1b82827dc9.png",
@@ -17,12 +18,12 @@
     "static/media/pre.svg": "/SAIPORTFOLIO/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/SAIPORTFOLIO/index.html",
     "main.0c790c40.css.map": "/SAIPORTFOLIO/static/css/main.0c790c40.css.map",
-    "main.923eeb5f.js.map": "/SAIPORTFOLIO/static/js/main.923eeb5f.js.map",
+    "main.f6dce3ce.js.map": "/SAIPORTFOLIO/static/js/main.f6dce3ce.js.map",
     "415.fc063c41.chunk.js.map": "/SAIPORTFOLIO/static/js/415.fc063c41.chunk.js.map",
     "787.f6e65957.chunk.js.map": "/SAIPORTFOLIO/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c790c40.css",
-    "static/js/main.923eeb5f.js"
+    "static/js/main.f6dce3ce.js"
   ]
 }
