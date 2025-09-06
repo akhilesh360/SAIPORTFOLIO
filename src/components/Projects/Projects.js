@@ -62,7 +62,16 @@ function Projects() {
               demoLink="http://forestfiresprediction-env-1.eba-djbn9yjg.us-east-2.elasticbeanstalk.com/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customerActivation}
+              isBlog={false}
+              title="Customer Activation Analytics Platform"
+              description="Enterprise-grade platform combining AI-powered analytics, modern data stack, and live CRM workflows to activate and retain customers. Features GPT-4 risk scoring, real-time segmentation, automated Salesforce workflows, personalized messaging, and dbt data quality testing. Built with Python, DuckDB, Apache Airflow, and Streamlit for comprehensive customer lifecycle management and revenue recovery."
+              ghLink="https://github.com/akhilesh360/customer-activation-analytics"
+              demoLink="https://customer-activation-analytics-doswappppyzzduxxhwrd8gux.streamlit.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -105,16 +114,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={customerActivation}
-              isBlog={false}
-              title="Customer Activation Analytics Platform"
-              description="Enterprise-grade platform combining AI-powered analytics, modern data stack, and live CRM workflows to activate and retain customers. Features GPT-4 risk scoring, real-time segmentation, automated Salesforce workflows, personalized messaging, and dbt data quality testing. Built with Python, DuckDB, Apache Airflow, and Streamlit for comprehensive customer lifecycle management and revenue recovery."
-              ghLink="https://github.com/akhilesh360/customer-activation-analytics"
-              demoLink="https://customer-activation-analytics-doswappppyzzduxxhwrd8gux.streamlit.app/"
-            />
-          </Col>
+
         </Row>
       </Container>
     </Container>
