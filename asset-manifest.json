@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/SAIPORTFOLIO/static/css/main.0c790c40.css",
-    "main.js": "/SAIPORTFOLIO/static/js/main.2ce594c7.js",
-    "static/js/415.fc063c41.chunk.js": "/SAIPORTFOLIO/static/js/415.fc063c41.chunk.js",
-    "static/js/787.f6e65957.chunk.js": "/SAIPORTFOLIO/static/js/787.f6e65957.chunk.js",
+    "main.js": "/SAIPORTFOLIO/static/js/main.87843057.js",
+    "static/js/415.4d6acbeb.chunk.js": "/SAIPORTFOLIO/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/SAIPORTFOLIO/static/js/787.1ed0c42c.chunk.js",
     "static/media/chatify.png": "/SAIPORTFOLIO/static/media/chatify.4d60d8ca0fa53c87a314.png",
+    "static/media/fintech.png": "/SAIPORTFOLIO/static/media/fintech.6f1ef21bd6779fc5de97.png",
     "static/media/about.png": "/SAIPORTFOLIO/static/media/about.84a3c78f4150af110e01.png",
     "static/media/blog.png": "/SAIPORTFOLIO/static/media/blog.60eec5a37f893bbe6215.png",
     "static/media/codeEditor.png": "/SAIPORTFOLIO/static/media/codeEditor.6a8c53acd231f3fcd1cb.png",
@@ -20,12 +21,12 @@
     "static/media/pre.svg": "/SAIPORTFOLIO/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/SAIPORTFOLIO/index.html",
     "main.0c790c40.css.map": "/SAIPORTFOLIO/static/css/main.0c790c40.css.map",
-    "main.2ce594c7.js.map": "/SAIPORTFOLIO/static/js/main.2ce594c7.js.map",
-    "415.fc063c41.chunk.js.map": "/SAIPORTFOLIO/static/js/415.fc063c41.chunk.js.map",
-    "787.f6e65957.chunk.js.map": "/SAIPORTFOLIO/static/js/787.f6e65957.chunk.js.map"
+    "main.87843057.js.map": "/SAIPORTFOLIO/static/js/main.87843057.js.map",
+    "415.4d6acbeb.chunk.js.map": "/SAIPORTFOLIO/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/SAIPORTFOLIO/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c790c40.css",
-    "static/js/main.2ce594c7.js"
+    "static/js/main.87843057.js"
   ]
 }
